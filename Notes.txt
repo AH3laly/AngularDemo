@@ -1,0 +1,23 @@
+Async Programming (Promises)
+
+Array Methods:
+- forEach, map, filer, etc.
+
+Services increase the modularity by separating some code from Components.
+Usually components are used to create views
+
+
+npm install -g @angular/cli
+
+ng new my-app
+
+ng build
+
+
+sudo dnf module list nodejs
+sudo dnf module disable nodejs:10
+sudo dnf module enable nodejs:16
+
+ng serve
+http://localhost:4200
+
