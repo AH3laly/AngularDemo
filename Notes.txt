@@ -21,3 +21,21 @@ sudo dnf module enable nodejs:16
 ng serve
 http://localhost:4200
 
+ng generate componenet components/header
+
+ng add @fontawesome/angular-fontawesome
+
+ng generate service services/task
+
+ng generate service services/ui
+
+
+# To Create Full-Demo JSON server install:
+npm install json-server
+
+# Add The command to Scripts in package.json
+"server": "json-server --watch db.json --port 5000"
+
+npm run server
+
+ng generate component components/add-task
